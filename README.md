@@ -1,10 +1,23 @@
-# pypet
-
-[![pypet-test-suite](https://github.com/SmokinCaterpillar/pypet/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/SmokinCaterpillar/pypet/actions/workflows/tests.yml)
+# pypet, updated (fork of SmokinCaterpillar/pypet)
+<!-- [![pypet-test-suite](https://github.com/SmokinCaterpillar/pypet/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/SmokinCaterpillar/pypet/actions/workflows/tests.yml)
 [![Coverage Status](https://coveralls.io/repos/github/SmokinCaterpillar/pypet/badge.svg?branch=master)](https://coveralls.io/github/SmokinCaterpillar/pypet?branch=master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/bdc483ee47304b97a334bb2922d83e8f)](https://www.codacy.com/gh/SmokinCaterpillar/pypet/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SmokinCaterpillar/pypet&amp;utm_campaign=Badge_Grade)
 [![PyPI version](https://badge.fury.io/py/pypet.svg)](https://badge.fury.io/py/pypet)
-[![Documentation Status](https://readthedocs.org/projects/pypet/badge/?version=latest)](http://pypet.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/pypet/badge/?version=latest)](http://pypet.readthedocs.io/en/latest/?badge=latest) -->
+
+An improved version of the original pypet project.
+
+This repository is an independently maintained fork/derivative of the original
+[`SmokinCaterpillar/pypet`](https://github.com/SmokinCaterpillar/pypet) project.
+The original code was created by Robert Meyer and other contributors and is used
+here under the terms of the BSD-style license included in the `LICENSE` file.
+
+This fork is **not affiliated with or endorsed by** Robert Meyer or any other
+original contributors.
+
+---
+
+# Original README:
 
 The new python parameter exploration toolkit:
 *pypet* manages exploration of the parameter space
@@ -54,14 +67,7 @@ Automatic Sumatra records are supported for
 * Sumatra >= 0.7.1
 
 
-## Python 2.7
-
-This release no longer supports Python 2.7.
-If you are still using Python 2.7, you need to
-use the pypet legacy version 0.3.0 (https://pypi.python.org/pypi/pypet/0.3.0).
-
-
-# What is pypet all about?
+## What is pypet all about?
 
 Whenever you do numerical simulations in science, you come across two major challenges.
 First, you need some way to save your data. Secondly, you extensively explore the parameter space.
